@@ -1,0 +1,6 @@
+function buyLunch(name){
+    var name = ["Angela", "Ben", "Jenny", "Michael", "Chloe"];
+    var nameRandom = Math.floor(name.length * Math.random());
+    return name[nameRandom];
+}
+buyLunch()
